@@ -529,9 +529,6 @@ color: #111111d2;
    📱 모바일 (768px 이하)
 =============================== */
 @media (max-width: 768px) {
-* {
-  outline: 1px solid red;
-}
 
 .첫화면{
  font-size: 1.2em; 
@@ -559,11 +556,11 @@ width: 100px;
   .상담신청{
      margin-top:45px;
      height: auto;
-width: 100px;
+width: 50vh;
   }
   .육번{
     height: auto;
-    width: 480px;
+    width: 50vh;
   }
 
   .사번{
@@ -640,6 +637,7 @@ margin-top: 50px;
 justify-content: center;
 margin-bottom: 25px;
 width: 480px !important;
+scale:calc(0.8);
 
 }
 
@@ -715,7 +713,6 @@ border-radius: 80px 0px 0px 80px;
 }
 .삼번{
 display:inline-block;
-background-color: #bdbbbb00;
 }
 .정신1{
   display:flex;
