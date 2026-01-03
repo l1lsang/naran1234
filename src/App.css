@@ -601,13 +601,13 @@ font-weight: 700;
   .일번{
 margin-top:50px;
 height: auto;
-width: 50px;
+width: 100px;
 
   }
   .상담신청{
      margin-top:45px;
      height: auto;
-width: 50px;
+width: 100px;
   }
   .육번{
     height: auto;
@@ -731,10 +731,10 @@ font-size: 20px;
 font-weight:600;
 margin-top:-15px;
 
-
-
 }
-
+.사번{
+  width:480px;
+}
 .간단{
 font-size:20px;
 font-weight:600;
