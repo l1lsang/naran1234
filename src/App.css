@@ -102,21 +102,29 @@ margin-left: 30px;
 
 
 /* ===============================
-   📊 TABLE (정리된 최종본)
+   📊 TABLE (CLEAN FIX)
 =============================== */
 
 .table-wrapper {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.rolling-body {
+  width: 100%;
+  max-width: 900px;
+  height: 240px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .approval-table {
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed;
   background-color: #f4f7fb;
+  table-layout: fixed; /* PC 기본 */
 }
 
 /* THEAD */
@@ -124,10 +132,17 @@ margin-left: 30px;
   background-color: #181683;
 }
 
+.approval-table th,
+.approval-table td {
+  box-sizing: border-box; /* ⭐ 중요 */
+  padding: 12px 8px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* THEAD TEXT */
 .approval-table thead th {
   color: #fff;
-  padding: 14px 8px;
-  font-size: 16px;
   font-weight: 500;
 }
 
@@ -141,14 +156,11 @@ margin-left: 30px;
 
 /* TBODY */
 .approval-table tbody td {
-  padding: 12px 8px;
-  font-size: 15px;
   color: #333;
-  text-align: center;
-  white-space: nowrap;
+  white-space: nowrap; /* PC에서는 유지 */
 }
 
-/* 마지막 줄 밑줄 */
+/* 마지막 줄 */
 .approval-table tbody tr:last-child td {
   border-bottom: 2px solid #111;
 }
@@ -157,14 +169,8 @@ margin-left: 30px;
    🔄 ROLLING
 =============================== */
 
-.rolling-body {
-  height: 240px;
-  overflow: hidden;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 .rolling-body table {
+  width: 100%;
   animation: rollUp 18s linear infinite;
 }
 
@@ -178,67 +184,30 @@ margin-left: 30px;
 }
 
 /* ===============================
-   📱 RESPONSIVE
+   📱 MOBILE FIX (핵심)
 =============================== */
 
-@media (max-width: 1024px) {
-  .approval-table thead th {
-    font-size: 14px;
-  }
+@media (max-width: 480px) {
 
-  .approval-table tbody td {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 768px) {
   .rolling-body {
     height: 180px;
   }
 
-  .approval-table thead th,
-  .approval-table tbody td {
-    font-size: 12px;
-    padding: 8px;
+  .approval-table {
+    table-layout: auto; /* ⭐ fixed 완전 해제 */
   }
-}
 
-@media (max-width: 480px) {
-  .approval-table thead th,
-  .approval-table tbody td {
+  .approval-table th,
+  .approval-table td {
+    padding: 6px 4px;
     font-size: 11px;
   }
-}
-/* ===============================
-   🔧 FIX: MOBILE OVERFLOW
-=============================== */
 
-/* 롤링 영역 가로 튀어나옴 방지 */
-.rolling-body {
-  overflow-x: hidden; /* 추가 */
-}
-
-/* 기본은 유지 */
-.approval-table tbody td {
-  white-space: nowrap;
-}
-
-/* 📱 모바일에서만 줄바꿈 허용 */
-@media (max-width: 480px) {
   .approval-table tbody td {
-    white-space: normal;        /* nowrap 해제 */
+    white-space: normal;      /* ⭐ 줄바꿈 허용 */
     word-break: break-word;
-         /* 긴 단어 줄바꿈 */
-  }
-    .approval-table {
-    table-layout: auto;   /* fixed 해제 */
-  }
-    .approval-table th,
-  .approval-table td {
-    padding: 6px 4px;     /* padding 압축 */
   }
 }
-
 
 .신청{  
 background-color: #f4f7fb;
