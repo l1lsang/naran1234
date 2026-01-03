@@ -789,6 +789,6 @@ font-weight:600;
   width: 480px;
 }
 .정신1{
-  width:480px;
+  width:480px !important;
 }
 }
