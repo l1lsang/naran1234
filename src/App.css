@@ -529,9 +529,7 @@ color: #111111d2;
    📱 모바일 (768px 이하)
 =============================== */
 @media (max-width: 768px) {
-* {
-  outline: 1px solid red;
-}
+
 
 .첫화면{
  font-size: 1.2em; 
@@ -553,13 +551,13 @@ font-weight: 700;
   .일번{
 margin-top:50px;
 height: auto;
-width: 50%;
+width: 100%;
 
   }
   .상담신청{
      margin-top:45px;
      height: auto;
-width: 50%;
+width: 100%;
   }
   .육번{
     height: auto;
