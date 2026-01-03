@@ -601,10 +601,18 @@ font-weight: 700;
 
   .일번{
 margin-top:50px;
+height: auto;
+width: 200px;
 
   }
   .상담신청{
      margin-top:45px;
+     height: auto;
+width: 200px;
+  }
+  .육번{
+    height: auto;
+    width: 480px;
   }
 
   .사번{
