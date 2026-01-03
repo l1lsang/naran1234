@@ -710,7 +710,11 @@ padding-top: 25px;
 .세입{
 font-size: 14px;
 border-radius: 80px 0px 0px 80px;
-
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;        /* 중앙 정렬 */
+  
 
 
 }
