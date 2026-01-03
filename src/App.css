@@ -550,13 +550,13 @@ font-weight: 700;
   .일번{
 margin-top:50px;
 height: auto;
-width: 50vh;
+width: 50%;
 
   }
   .상담신청{
      margin-top:45px;
      height: auto;
-width: 50vh;
+width: 50%;
   }
   .육번{
     height: auto;
@@ -637,7 +637,7 @@ margin-top: 50px;
 justify-content: center;
 margin-bottom: 25px;
 width: 100%!important;
-scale:calc(0.8);
+
 
 }
 
