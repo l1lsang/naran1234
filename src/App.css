@@ -693,8 +693,8 @@ width: 480px !important;
 }
 
 .이미지{
- margin-right: 100px;
-margin-left: 50px;
+ margin-right: 0px;
+margin-left: 0px;
 }
 
 .김땡땡{
@@ -749,12 +749,10 @@ font-weight:600;
 
 .묶음{
 padding-top: 25px;
-padding-left: 100px;
 }
 
 .정신1{
   max-width: 480px; 
-margin-right: -15px;
 }
   
 
@@ -786,7 +784,6 @@ background-color: #bdbbbb00;
 
 .후후에{  font-size: 10px;
   padding-top: 5px;
-padding-left: 60px;
 font-weight:350;
 padding-bottom: 50px;
 }
