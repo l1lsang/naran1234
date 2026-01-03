@@ -586,6 +586,7 @@ color: #111111d2;
 .첫화면{
  font-size: 1.2em; 
 height: 70vh;
+max-width:768px;
 }
 
 .이자{
@@ -643,7 +644,9 @@ font-size: 20px;
   font-weight: 410;
  margin-bottom: 9px;
    }
-
+.고객{
+  font-size: 25px;
+}
 
   .대박표{
 display: flex;
@@ -662,7 +665,7 @@ width:60vh;
 
 .화살표{
   height: auto;
-width:60vh;
+width:20vh;
 margin-top: 5px;
 margin-right: -55px;
 }
