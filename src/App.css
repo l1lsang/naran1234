@@ -550,7 +550,7 @@ font-weight: 700;
   .일번{
 margin-top:50px;
 height: auto;
-width: 100px;
+width: 50vh;
 
   }
   .상담신청{
@@ -560,12 +560,12 @@ width: 50vh;
   }
   .육번{
     height: auto;
-    width: 50vh;
+    width: 100%;
   }
 
   .사번{
   height: 70vh;
-  width: 480px;
+  width: 100%;
   }
   .인간{
     height:auto;
@@ -597,7 +597,7 @@ font-size: 20px;
    }
 .고객{
   font-size: 25px;
-  width: 480px;
+  width: 100%;
 }
 
   .대박표{
@@ -636,7 +636,7 @@ flex-direction: row;
 margin-top: 50px;
 justify-content: center;
 margin-bottom: 25px;
-width: 480px !important;
+width: 100%!important;
 scale:calc(0.8);
 
 }
@@ -736,10 +736,5 @@ padding-bottom: 50px;
 font-size: 15px;
 font-weight:600;
 }
-.신청{
-  width: 480px;
-}
-.정신1{
-  width:480px !important;
-}
+
 }
