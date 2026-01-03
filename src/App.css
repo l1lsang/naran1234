@@ -769,8 +769,6 @@ border-radius: 80px 0px 0px 80px;
 .삼번{
 display:inline-block;
 background-color: #bdbbbb00;
- position: relative;
-  right: -30px;
 }
 .정신{
   display:flex;
