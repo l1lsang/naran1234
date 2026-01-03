@@ -227,7 +227,15 @@ margin-left: 30px;
 @media (max-width: 480px) {
   .approval-table tbody td {
     white-space: normal;        /* nowrap 해제 */
-    word-break: break-word;     /* 긴 단어 줄바꿈 */
+    word-break: break-word;
+         /* 긴 단어 줄바꿈 */
+  }
+    .approval-table {
+    table-layout: auto;   /* fixed 해제 */
+  }
+    .approval-table th,
+  .approval-table td {
+    padding: 6px 4px;     /* padding 압축 */
   }
 }
 
