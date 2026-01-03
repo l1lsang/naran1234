@@ -42,10 +42,10 @@ function App() {
           <p className='이자'>이자 걱정, 이제 그만!</p>
           <p className='이자'>최대 <span className='억'>3억</span>까지 채무통합</p>
           <p className='일번'>
-            <img src={일번} alt="일번" />
+            <img src={일번} alt="일번" className="일번" />
           </p>
           <p className='상담신청'>
-            <img src={상담신청} alt="상담신청" />
+            <img src={상담신청} alt="상담신청" className="상담신청"/>
           </p>
         </div>
       </header>
