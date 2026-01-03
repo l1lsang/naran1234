@@ -533,7 +533,7 @@ color: #111111d2;
 .첫화면{
  font-size: 1.2em; 
 height: 70vh;
-width:480px;
+width:100%;
 }
 
 .이자{
@@ -681,7 +681,7 @@ margin-top:-15px;
 
 }
 .사번{
-  width:480px !important;
+  width:100% !important;
 }
 .간단{
 font-size:20px;
@@ -700,7 +700,7 @@ padding-top: 25px;
 }
 
 .정신1{
-  max-width: 480px; 
+  width:100%
 }
   
 
@@ -718,7 +718,6 @@ display:inline-block;
   display:flex;
   flex-direction: column;
   width: 100%;
-max-width: 480px;
 
 }
 .후에{
