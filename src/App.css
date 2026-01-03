@@ -488,55 +488,49 @@ color: #111111d2;
    💻 중간 PC / 노트북 (1200px 이하)
 =============================== */
 @media (max-width: 1200px) {
+.첫화면 {
+  font-size: 1.2em;      /* 유지 OK */
+  height: 70vh;          /* 유지 */
+  min-height: 700px;     /* PC 안정감 */
+}
+.이자 {
+  font-size: 40px;   /* 모바일 22px → 약 1.8배 */
+  font-weight: 800;
+}
 
-  .두달락 {
-    flex-direction: column;
-    align-items: center;
-  }
+.억 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.일번 {
+  margin-top: 100px;   /* 모바일 50px → 2배 */
+}
 
-  .이미지 {
-    margin: 0;
-    margin-bottom: 40px;
-  }
+.상담신청 {
+  margin-top: 90px;    /* 모바일 45px → 2배 */
+}
+.사번 {
+  padding: 140px;      /* 모바일 70px → 2배 */
+  height: 70vh;
+  min-height: 650px;
+}
+.단 {
+  font-size: 28px;     /* 모바일 15px → 약 1.8배 */
+  font-weight: 500;
+  margin-top: 280px;   /* 모바일 140px → 2배 */
+  margin-bottom: 65px;
+}
+.론 {
+  font-size: 26px;     /* 모바일 16px → 1.6배 */
+  font-weight: 600;
+  margin-left: 30px;  /* 모바일 15px → 2배 */
+}
 
-  .대박표 {
-    gap: 20px;
-  }
+.근로 {
+  margin-left: 30px;
+  font-size: 18px;    /* 모바일 10px → 1.8배 */
+}
 
-  .진행전,
-  .진행후 {
-    width: 90%;
-    max-width: 700px;
-  }
-
-  .화살표 {
-    width: 120px;
-    margin: 10px 0;
-  }
-
-  .세입 {
-    margin-left: 0;
-    right: 0;
-    border-radius: 40px;
-  }
-
-  .삼번 {
-    right: 0;
-  }
-
-  .묶음,
-  .후후에,
-  .진행 {
-    padding-left: 40px;
-  }
-
-  .rolling-body {
-    margin-left: 0;
-  }
-
-  .rolling-body table {
-    width: 100%;
-  }
 }
 
 
@@ -588,158 +582,53 @@ color: #111111d2;
    📱 모바일 (768px 이하)
 =============================== */
 @media (max-width: 768px) {
+  
+.첫화면{
+ font-size: 1.2em; 
+height: 70vh;
+}
 
-  .첫화면 {
-    height: auto;
-    min-height: 100vh;
-    padding: 40px 16px;
-  }
+.이자{
+font-size: 22px;
+font-weight: 700;
+}
 
-  .이자 {
-    font-size: 24px;
-    line-height: 1.4;
-  }
-
-  .억 {
-    font-size: 26px;
-  }
-
-  .일번 img,
-  .상담신청 img {
-    width: 80%;
-  }
-
-  .두달락 {
-    margin-top: 40px;
-  }
-
-  .김땡땡 {
-    font-size: 22px;
-  }
-
-  .중소 {
-    font-size: 13px;
-  }
-
-  .통합 {
-    font-size: 16px;
-  }
-
-  .진행전,
-  .진행후 {
-    width: 100%;
-  }
-
-  .화살표 {
-    width: 80px;
-    margin: 10px 0;
-  }
-
-  .진행 {
-    font-size: 22px;
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .묶음,
-  .후후에 {
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .본인,
-  .간단,
-  .정리 {
-    font-size: 24px;
-  }
-
-  .세입 {
-    font-size: 18px;
-    padding: 20px;
-    border-radius: 30px;
-  }
-
-  .근로 {
-    font-size: 15px;
-  }
-
-  .사번 {
-    padding: 60px 16px;
-  }
-
-  .단 {
-    font-size: 18px;
-    margin-top: 120px;
-  }
-
-  .approval-table th,
-  .approval-table td {
-    font-size: 12px;
-    padding: 8px;
-  }
-
-  .rolling-body {
-    height: 160px;
-    margin-left: 0;
-  }
+.억{
+    font-size:22px;
+font-weight: 700;
 }
 
 
-/* ===============================
-   📱 초소형 모바일 (480px 이하)
-=============================== */
-@media (max-width: 480px) {
+  .일번{
+margin-top:50px;
 
-  .이자 {
-    font-size: 20px;
+  }
+  .상담신청{
+     margin-top:45px;
   }
 
-  .억 {
-    font-size: 22px;
+  .사번{
+  padding: 70px;
+  height: 70vh;
   }
 
-  .본인,
-  .간단,
-  .정리 {
-    font-size: 20px;
+  .단{
+font-size: 15px;
+  font-weight: 335;
+  margin-top: 140px;
+  margin-bottom: 30px;
+
   }
 
-  .채무 {
-    font-size: 24px;
+  .론{
+      font-size: 16px;
+font-weight: 400;
+ margin-left: 15px;}
+
+  .근로{
+margin-left: 15px;
+  font-size: 10px;
   }
 
-  .조회 {
-    font-size: 18px;
-  }
-}
-@media (min-width: 1201px) {
 
-  .이자 {
-    font-size: 40px;   /* 기존보다 살짝 ↓ */
-  }
-
-  .억 {
-    font-size: 42px;
-  }
-
-  .본인,
-  .간단,
-  .정리 {
-    font-size: 36px;
-  }
-
-  .세입 {
-    font-size: 24px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .두달락 {
-    gap: 40px;
-  }
-
-  .approval-table {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
 }
