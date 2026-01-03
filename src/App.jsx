@@ -185,7 +185,7 @@ function App() {
       {/* 마지막 이미지 섹션 */}
       <section>
         <div claassName="육번">
-          <img src={육번} alt="육번" />
+          <img src={육번} alt="육번" className="육번" />
         </div>
       </section>
       </div>
