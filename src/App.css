@@ -209,6 +209,27 @@ margin-left: 30px;
     font-size: 11px;
   }
 }
+/* ===============================
+   🔧 FIX: MOBILE OVERFLOW
+=============================== */
+
+/* 롤링 영역 가로 튀어나옴 방지 */
+.rolling-body {
+  overflow-x: hidden; /* 추가 */
+}
+
+/* 기본은 유지 */
+.approval-table tbody td {
+  white-space: nowrap;
+}
+
+/* 📱 모바일에서만 줄바꿈 허용 */
+@media (max-width: 480px) {
+  .approval-table tbody td {
+    white-space: normal;        /* nowrap 해제 */
+    word-break: break-word;     /* 긴 단어 줄바꿈 */
+  }
+}
 
 
 .신청{  
@@ -622,7 +643,7 @@ width: 50px;
   }
   .인간{
     height:auto;
-    width: 50px;
+    width: 150px;
   }
 
   .단{
