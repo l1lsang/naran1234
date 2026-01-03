@@ -603,13 +603,13 @@ font-weight: 700;
   .일번{
 margin-top:50px;
 height: auto;
-width: 200px;
+width: 50px;
 
   }
   .상담신청{
      margin-top:45px;
      height: auto;
-width: 200px;
+width: 50px;
   }
   .육번{
     height: auto;
@@ -619,6 +619,10 @@ width: 200px;
   .사번{
   padding: 70px;
   height: 70vh;
+  }
+  .인간{
+    height:auto;
+    width: 50px;
   }
 
   .단{

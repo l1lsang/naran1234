@@ -83,7 +83,7 @@ function App() {
       {/* 진행 불가 안내 섹션 */}
       <section>
         <div className='고객'>
-          <h1>회생,회복,파산 최근 5년이내 진행자는 진행 불가</h1>
+          <h1 className="고객">회생,회복,파산 최근 5년이내 진행자는 진행 불가</h1>
           {/* 표 작업 가능 */}
         </div>
       </section>
