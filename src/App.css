@@ -1,0 +1,745 @@
+*{font-family: 'Noto Sans KR', sans-serif;}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  max-width: 100%;
+}
+
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 0;
+}
+
+
+
+
+.첫화면{
+background-image: url(./이미지/첫화면.png);
+ font-size: 1.2em; 
+ width: 100%;
+height: 800px;
+ background-size: 
+ cover; background-position: 
+ center; position: relative;
+}
+
+.이자{
+font-size: 45px;
+color: #ffffff;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: 900;
+ text-align: center;
+   margin: 0;
+  padding: 0;
+}
+
+.억{
+    font-size: 45px;
+    color:#1EA7E1;
+    font-family: 'Noto Sans KR', sans-serif;
+font-weight: 900;
+}
+
+.세이브{ 
+margin-left:2em; 
+
+}
+
+.이미지{
+  background-color: #ffffff;
+}
+.삼번{
+  background-color: #ffffffe1;
+}
+
+  .일번{
+ text-align: center;
+margin-top: 100px;
+
+  }
+  .상담신청{
+     text-align: center;
+     margin-top:90px;
+  }
+
+  .사번{
+background-image: url(./이미지/사번.gif);
+  background-size: cover;
+  padding: 140px;
+  height: 650px;
+  }
+
+  .단{
+font-size: 30px;
+  text-align: center;
+  font-weight: 535;
+  color:#181683d3;
+  margin-top: 280px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 65px;
+
+  }
+
+  .론{
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 33px;
+font-weight: 600;
+ margin-left: 30px;}
+
+  .근로{
+margin-left: 30px;
+  font-size: 20px;
+  }
+
+
+
+/* ===============================
+   📊 TABLE (정리된 최종본)
+=============================== */
+
+.table-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.approval-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: #f4f7fb;
+}
+
+/* THEAD */
+.approval-table thead {
+  background-color: #181683;
+}
+
+.approval-table thead th {
+  color: #fff;
+  padding: 14px 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* 둥근 모서리 */
+.approval-table thead th:first-child {
+  border-top-left-radius: 12px;
+}
+.approval-table thead th:last-child {
+  border-top-right-radius: 12px;
+}
+
+/* TBODY */
+.approval-table tbody td {
+  padding: 12px 8px;
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* 마지막 줄 밑줄 */
+.approval-table tbody tr:last-child td {
+  border-bottom: 2px solid #111;
+}
+
+/* ===============================
+   🔄 ROLLING
+=============================== */
+
+.rolling-body {
+  height: 240px;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.rolling-body table {
+  animation: rollUp 18s linear infinite;
+}
+
+@keyframes rollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* ===============================
+   📱 RESPONSIVE
+=============================== */
+
+@media (max-width: 1024px) {
+  .approval-table thead th {
+    font-size: 14px;
+  }
+
+  .approval-table tbody td {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rolling-body {
+    height: 180px;
+  }
+
+  .approval-table thead th,
+  .approval-table tbody td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .approval-table thead th,
+  .approval-table tbody td {
+    font-size: 11px;
+  }
+}
+
+
+.신청{  
+background-color: #f4f7fb;
+
+text-align: center;
+
+   }
+
+   .채무{
+color: #201e99ef;
+font-size: 40px;
+text-align: center;
+  font-weight: 610;
+ font-family: 'Noto Sans KR', sans-serif;
+ margin-bottom: 18px;
+   }
+
+
+  .대박표{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+
+  }
+.진행전{
+height: auto;
+width:800px;
+
+}
+
+.화살표{
+  height: auto;
+width:200px;
+margin-top: 10px;
+margin-right: -110px;
+}
+
+.진행후
+{height: auto;
+width:800px;
+margin-top: 30px;
+margin-right: 20px;
+
+}
+
+.두달락{
+display: flex;
+flex-direction: row;
+margin-top: 100px;
+justify-content: center;
+margin-bottom: 50px;
+
+}
+
+.이미지{
+ margin-right: 400px;
+margin-left: 100px;
+}
+
+.김땡땡{
+font-size: 35px;
+color: #201e99ef;
+margin-top: 10px;
+}
+
+.중소{
+font-size: 15px;
+margin-top: 10px;
+
+}
+.통합{
+font-weight:580;
+font-size: 20px;
+margin-top: 10px;
+
+}
+.고객{
+text-align: center;
+color: #201e99ef;
+margin-bottom: 50px;
+}
+
+.진행{
+font-size:30px;
+padding-left: 200px;
+padding-top: 40px;
+padding-bottom: 10px;
+padding-top: 100px;
+color:#1f48b9;
+font-weight:600;
+}
+
+.본인{
+font-size: 40px;
+font-weight:700;
+margin-top:-25px;
+
+
+
+}
+
+.간단{
+font-size:40px;
+font-weight:700;
+color:#1f48b9;
+}
+
+
+.정리{
+font-size: 40px;
+font-weight:700;
+
+}
+
+.묶음{
+padding-top: 50px;
+padding-left: 200px;
+font-family: "Pretendard";
+}
+
+.정신 {
+  width: 100%;
+  background-color: #bdbbbb1f;}
+
+
+.정신1{
+  max-width: 1440px;   /* PC 최대 폭 */
+margin-right: -30px;
+}
+  
+
+.세입{
+  display: inline-block;
+background: linear-gradient(
+  180deg,
+  #0b48b8f1 0%,
+  #125ed1dc 50%,
+  #1a8be8b7 100%
+);
+color: white;
+font-size: 28px;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 30px;
+padding-right: 50px;
+border-radius: 80px 0px 0px 80px;
+margin-left: 150px;
+ position: relative;
+  right: -150px;
+
+
+}
+.삼번{
+display:inline-block;
+background-color: #bdbbbb00;
+ position: relative;
+  right: -100px;
+}
+
+.후에{
+  font-size: 20px;
+  padding-top: 10px;
+
+font-family: "Pretendard";
+}
+
+.후후에{  font-size: 20px;
+  padding-top: 10px;
+padding-left: 200px;
+font-weight:450;
+padding-bottom: 100px;
+}
+
+.조회{
+font-size: 30px;
+font-family: "Pretendard";
+font-weight:700;
+align-items: center;
+color: #111111d2;
+}
+
+
+
+   @media (max-width: 1024px) {
+
+  .첫화면 {
+    height: auto;
+    min-height: 700px;
+  }
+
+  .이자 {
+    font-size: 34px;
+  }
+
+  .일번,
+  .상담신청 {
+    margin-top: 60px;
+  }
+
+  .사번 {
+    padding: 100px 40px;
+    height: auto;
+  }
+
+  .단 {
+    font-size: 24px;
+    margin-top: 200px;
+  }
+
+  .rolling-body {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .rolling-body table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .첫화면 {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 16px;
+  }
+
+  .이자 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .억 {
+    font-size: 28px;
+  }
+
+  .일번,
+  .상담신청 {
+    margin-top: 40px;
+  }
+
+  .사번 {
+    padding: 80px 20px;
+  }
+
+  .단 {
+    font-size: 20px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+  }
+
+  .table-wrapper,
+  .approval-table,
+  .rolling-body {
+    max-width: 100%;
+  }
+
+  .approval-table th,
+  .approval-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .rolling-body {
+    height: 180px;
+    margin-left: 0;
+  }
+
+  .채무 {
+    font-size: 22px;
+  }
+}
+/* ===============================
+   💻 중간 PC / 노트북 (1200px 이하)
+=============================== */
+@media (max-width: 1200px) {
+
+  .두달락 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .이미지 {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .대박표 {
+    gap: 20px;
+  }
+
+  .진행전,
+  .진행후 {
+    width: 90%;
+    max-width: 700px;
+  }
+
+  .화살표 {
+    width: 120px;
+    margin: 10px 0;
+  }
+
+  .세입 {
+    margin-left: 0;
+    right: 0;
+    border-radius: 40px;
+  }
+
+  .삼번 {
+    right: 0;
+  }
+
+  .묶음,
+  .후후에,
+  .진행 {
+    padding-left: 40px;
+  }
+
+  .rolling-body {
+    margin-left: 0;
+  }
+
+  .rolling-body table {
+    width: 100%;
+  }
+}
+
+
+/* ===============================
+   📱 태블릿 (1024px 이하)
+=============================== */
+@media (max-width: 1024px) {
+
+  .이자 {
+    font-size: 32px;
+  }
+
+  .억 {
+    font-size: 34px;
+  }
+
+  .김땡땡 {
+    font-size: 28px;
+  }
+
+  .본인,
+  .간단,
+  .정리 {
+    font-size: 32px;
+  }
+
+  .근로 {
+    font-size: 18px;
+  }
+
+  .세입 {
+    font-size: 22px;
+    padding: 30px;
+  }
+
+  .단 {
+    font-size: 24px;
+    margin-top: 200px;
+  }
+
+  .approval-table th,
+  .approval-table td {
+    font-size: 14px;
+  }
+}
+
+
+/* ===============================
+   📱 모바일 (768px 이하)
+=============================== */
+@media (max-width: 768px) {
+
+  .첫화면 {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 16px;
+  }
+
+  .이자 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .억 {
+    font-size: 26px;
+  }
+
+  .일번 img,
+  .상담신청 img {
+    width: 80%;
+  }
+
+  .두달락 {
+    margin-top: 40px;
+  }
+
+  .김땡땡 {
+    font-size: 22px;
+  }
+
+  .중소 {
+    font-size: 13px;
+  }
+
+  .통합 {
+    font-size: 16px;
+  }
+
+  .진행전,
+  .진행후 {
+    width: 100%;
+  }
+
+  .화살표 {
+    width: 80px;
+    margin: 10px 0;
+  }
+
+  .진행 {
+    font-size: 22px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .묶음,
+  .후후에 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .본인,
+  .간단,
+  .정리 {
+    font-size: 24px;
+  }
+
+  .세입 {
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .근로 {
+    font-size: 15px;
+  }
+
+  .사번 {
+    padding: 60px 16px;
+  }
+
+  .단 {
+    font-size: 18px;
+    margin-top: 120px;
+  }
+
+  .approval-table th,
+  .approval-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .rolling-body {
+    height: 160px;
+    margin-left: 0;
+  }
+}
+
+
+/* ===============================
+   📱 초소형 모바일 (480px 이하)
+=============================== */
+@media (max-width: 480px) {
+
+  .이자 {
+    font-size: 20px;
+  }
+
+  .억 {
+    font-size: 22px;
+  }
+
+  .본인,
+  .간단,
+  .정리 {
+    font-size: 20px;
+  }
+
+  .채무 {
+    font-size: 24px;
+  }
+
+  .조회 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1201px) {
+
+  .이자 {
+    font-size: 40px;   /* 기존보다 살짝 ↓ */
+  }
+
+  .억 {
+    font-size: 42px;
+  }
+
+  .본인,
+  .간단,
+  .정리 {
+    font-size: 36px;
+  }
+
+  .세입 {
+    font-size: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .두달락 {
+    gap: 40px;
+  }
+
+  .approval-table {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
