@@ -775,6 +775,7 @@ background-color: #bdbbbb00;
 .정신{
   display:flex;
   flex-direction: row;
+  width:480px;
 }
 .후에{
   font-size: 10px;
