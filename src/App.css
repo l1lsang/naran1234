@@ -714,7 +714,7 @@ border-radius: 80px 0px 0px 80px;
     max-width: 100%;
     box-sizing: border-box;
     margin: 0 auto;        /* 중앙 정렬 */
-  
+  right: 0px;
 
 
 }
