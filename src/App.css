@@ -430,54 +430,7 @@ color: #111111d2;
   }
 }
 
-@media (max-width: 768px) {
-  .첫화면 {
-    height: auto;
-    min-height: 100vh;
-    padding: 40px 16px;
-  }
 
-  .이자 {
-    font-size: 26px;
-    line-height: 1.3;
-  }
-
-  .억 {
-    font-size: 28px;
-  }
-
-  .일번,
-  .상담신청 {
-    margin-top: 40px;
-  }
-
-  .단 {
-    font-size: 20px;
-    margin-top: 140px;
-    margin-bottom: 40px;
-  }
-
-  .table-wrapper,
-  .approval-table,
-  .rolling-body {
-    max-width: 100%;
-  }
-
-  .approval-table th,
-  .approval-table td {
-    font-size: 12px;
-    padding: 8px;
-  }
-
-  .rolling-body {
-    height: 180px;
-    margin-left: 0;
-  }
-
-  .채무 {
-    font-size: 22px;
-  }
-}
 /* ===============================
    💻 중간 PC / 노트북 (1200px 이하)
 =============================== */
