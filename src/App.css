@@ -751,6 +751,10 @@ font-weight:600;
   max-width: 100% !important;
 
   box-sizing: border-box;
+    margin: 0 auto !important;
+  text-align: center; /* 텍스트도 중앙 */
+  width: 100% !important;
+  right: 0 !important;
 }
 
 
