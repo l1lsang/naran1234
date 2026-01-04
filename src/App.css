@@ -610,26 +610,20 @@ align-items: center;
 
 
   }
-.진행전{
-height: auto;
-width:60vh;
+  .진행전,
+  .진행후 {
+    width: 100%;          /* 화면 기준 */
+    max-width: 320px;     /* 모바일 안정 최대값 */
+    height: auto;
+    margin: 0 auto;       /* 중앙 정렬 */
+  }
 
-}
-
-.화살표{
-  height: auto;
-width:20vh;
-margin-top: 5px;
-margin-right: -55px;
-}
-
-.진행후
-{height: auto;
-width:60vh;
-margin-top: 15px;
-margin-right: 10px;
-
-}
+  .화살표 {
+    width: 80px;          /* 고정 px (아이콘은 px가 맞음) */
+    height: auto;
+    margin: 8px auto;     /* 음수 margin ❌ */
+    display: block;
+  }
 
 .두달락{
 display: flex;
