@@ -75,6 +75,7 @@ background-image: url(./이미지/사번.gif);
   background-size: cover;
   padding: 140px;
   height: 650px;
+  width: 100%;
   }
 
   .단{
@@ -639,7 +640,6 @@ width: 100%!important;
 .이미지{
  margin-right: 0px;
 margin-left: 0px;
-justify-content: center;
 }
 
 .김땡땡{
