@@ -757,3 +757,44 @@ font-weight:700;
 
 
 }
+/* ===============================
+   🔓 가로 확장 강제 패치
+=============================== */
+
+/* 1️⃣ body 제한 해제 */
+html, body {
+  max-width: none !important;
+  width: 100%;
+}
+
+/* 2️⃣ 주요 섹션은 100% 허용 */
+.table-wrapper,
+.rolling-body,
+.정신,
+.정신1,
+.사번,
+.신청 {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* 3️⃣ px 고정 이미지 반응형 */
+.진행전,
+.진행후 {
+  width: 100% !important;
+  max-width: 900px;
+  height: auto;
+}
+
+/* 4️⃣ inline-block / 위치 보정 제거 */
+.세입,
+.삼번 {
+  position: static !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* 5️⃣ 필요 시만 가로 숨김 */
+#root {
+  overflow-x: visible !important;
+}
