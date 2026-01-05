@@ -737,9 +737,6 @@ padding-bottom: 50px;
 font-size: 15px;
 font-weight:700;
 }
-#root {
-  overflow-x: hidden;
-}
 /* 삼번 영역 강제 원위치 */
 .삼번 {
   margin-left: -130px !important;
