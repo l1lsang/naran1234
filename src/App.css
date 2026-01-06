@@ -661,7 +661,6 @@ font-weight:700;
 
   box-sizing: border-box;
   text-align: center; /* 텍스트도 중앙 */
-  width: 100% !important;
   right: 0 !important;
   position: static !important;
 }
