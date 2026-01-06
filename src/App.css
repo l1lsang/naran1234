@@ -637,7 +637,7 @@ padding-top: 25px;
   margin: 0 auto;
 
   font-size: 14px;
-  border-radius: 80px;
+  border-radius: 80px 0 0 80px;
   box-sizing: border-box;
 }
 .후에 {
@@ -928,5 +928,26 @@ section {
   .정신-inner > .세입 {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .삼번 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* 🔥 내용 중심 고정 */
+    text-align: center;
+
+    width: 90%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+    .삼번 .묶음 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .삼번 p {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
