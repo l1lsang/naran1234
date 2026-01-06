@@ -951,7 +951,6 @@ section {
     margin-right: 0;
   }
     .삼번 {
-    margin-left: auto;
-    margin-right: 200px !important;
+    transform: translateX(-10px);
   }
 }
