@@ -676,8 +676,8 @@ font-weight:700;
 }
 .고객사례-inner,
 .정신-inner,
-.신청,
-.육번{
+.신청-inner,
+.육번-inner{
   max-width: 1200px;  /* ← 이게 황금값 */
 }
 .진행전,

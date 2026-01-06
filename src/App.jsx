@@ -188,17 +188,20 @@ function App() {
       
       <section>
         <div className='신청'>
+          <div className="신청-inner">
           <p className='채무'>채무통합 솔루션이 필요하세요?</p>
           <div>
             <p className='조회'>신용조회 없는 1분 상담으로</p>
             <p className='조회'>높은금리의 대출이자를 절반 이하로 줄이세요.</p>
           </div>
         </div>
+        </div>
       </section>
 
       {/* 마지막 이미지 섹션 */}
       <section>
         <div className="육번">
+          <div className="육번-inner"></div>
           <img src={육번} alt="육번" className="육번" />
         </div>
       </section>
