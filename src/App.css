@@ -623,13 +623,9 @@ border-radius: 80px 0px 0px 80px;
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;        /* 중앙 정렬 */
-  right: 0px;
+  right: -10px;
 
 
-}
-.삼번{
-display:inline-block;
- right: 0px;
 }
 .정신1{
   display:flex;
