@@ -864,53 +864,7 @@ section {
     width: 100%;
   }
 }
-/* ✅ 정신 섹션: 모바일에서 무조건 중앙 정렬 강제 */
-@media (max-width: 768px) {
-  section.정신 .inner.정신-inner {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
 
-    width: 100% !important;
-    max-width: 100% !important;
-
-    margin: 0 auto !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-
-    /* PC 레이아웃 잔재 제거 */
-    position: static !important;
-    left: auto !important;
-    right: auto !important;
-    transform: none !important;
-  }
-
-  /* 자식 2개(삼번/세입) 모두 중앙 카드로 고정 */
-  section.정신 .inner.정신-inner > .삼번,
-  section.정신 .inner.정신-inner > .세입 {
-    display: block !important;
-
-    width: 90% !important;
-    max-width: 360px !important;
-
-    margin-left: auto !important;
-    margin-right: auto !important;
-
-    /* PC 잔재 제거 */
-    float: none !important;
-    position: static !important;
-    left: auto !important;
-    right: auto !important;
-    transform: none !important;
-  }
-
-  /* 혹시 내부 텍스트가 왼쪽으로 가는 것 방지 */
-  section.정신 .inner.정신-inner .삼번,
-  section.정신 .inner.정신-inner .세입 {
-    text-align: center !important;
-  }
-}
 @media (max-width: 768px) {
   .정신-inner {
     display: flex;
@@ -924,5 +878,43 @@ section {
     max-width: 360px;
     margin: 0 auto;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  /* 1️⃣ 기준 컨테이너 고정 */
+  section.정신 > .inner.정신-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 auto !important;
+    padding: 40px 16px !important;
+
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+  }
+
+  /* 2️⃣ 삼번 / 세입 : 중앙 카드로 고정 */
+  section.정신 > .inner.정신-inner > .삼번,
+  section.정신 > .inner.정신-inner > .세입 {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 360px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+
+    text-align: center !important;
   }
 }
