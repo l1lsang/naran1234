@@ -674,3 +674,12 @@ font-weight:700;
   margin: 0 auto;
   padding: 80px 20px;
 }
+.고객사례-inner,
+.정신-inner {
+  max-width: 1200px;  /* ← 이게 황금값 */
+}
+.진행전,
+.진행후 {
+  width: 100%;
+  max-width: 520px;
+}
