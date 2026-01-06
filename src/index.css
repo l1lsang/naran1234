@@ -65,3 +65,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* 🔥 최종 가로 잘림 해결 패치 */
+#root {
+  width: 100%;
+  max-width: none;
+  display: block;        /* ❗ flex 제거 */
+}
+body {
+  display: block;        /* 혹시 남아있을 수 있어서 */
+}
