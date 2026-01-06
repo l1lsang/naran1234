@@ -962,3 +962,9 @@ section {
   }
 
 }
+@media (max-width: 768px) {
+  .삼번,
+  .삼번 p {
+    text-align: center !important;
+  }
+}
