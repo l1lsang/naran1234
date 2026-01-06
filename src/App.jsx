@@ -34,8 +34,8 @@ function App() {
   return (
     <div>
       {/* 헤더 영역 */}
-      <header>
-        <div className='첫화면'>
+      <header className="첫화면">
+        <div className='첫화면-inner'>
           <p className='세이브'>
             <img src={세이브} alt="세이브" />
           </p>

@@ -1,13 +1,9 @@
-*{font-family: 'Noto Sans KR', sans-serif;
-box-sizing: border-box;
-}
+*{font-family: 'Noto Sans KR', sans-serif;}
 
 html, body {
   margin: 0;
   padding: 0;
-  max-width: none !important;
 }
-
 
 h1, h2, h3, p {
   margin: 0;
@@ -20,17 +16,23 @@ header {
 
 
 
-
-.첫화면{
-background-image: url(./이미지/첫화면.png);
- font-size: 1.2em; 
- width: 100%;
-height: 800px;
- background-size: 
- cover; background-position: 
- center; position: relative;
+.첫화면 {
+  width: 100%;
+  min-height: 100vh;            /* 화면 꽉 */
+  background-image: url(./이미지/첫화면.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;          /* 세로 중앙 */
 }
 
+.첫화면-inner {
+  width: 100%;
+  max-width: 1200px;            /* 내용만 제한 */
+  margin: 0 auto;
+  padding: 0 20px;              /* 모바일 여백 */
+  text-align: center;
+}
 .이자{
 font-size: 45px;
 color: #ffffff;
@@ -73,8 +75,8 @@ margin-top: 100px;
   .사번{
 background-image: url(./이미지/사번.gif);
   background-size: cover;
+  padding: 140px;
   height: 650px;
-  width: 100%;
   }
 
   .단{
@@ -101,20 +103,9 @@ margin-left: 30px;
 
 
 
-/* ===============================
-   📊 TABLE (CLEAN FIX)
-=============================== */
-
-.table-wrapper {
+  .table-wrapper {
   width: 100%;
-  margin: 0 auto;
-  overflow-x: hidden;
-}
-
-.rolling-body {
-  width: 100%;
-  height: 240px;
-  overflow: hidden;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -122,54 +113,85 @@ margin-left: 30px;
   width: 100%;
   border-collapse: collapse;
   background-color: #f4f7fb;
-  table-layout: fixed; /* PC 기본 */
+  font-size: 20px;
 }
 
-/* THEAD */
 .approval-table thead {
   background-color: #181683;
+  padding: 20px 12px; 
+  font-size: 18px;
+
 }
 
-.approval-table th,
+.approval-table th {
+  color: #fff;
+    height: 40px; 
+  padding: 14px 10px;
+  font-weight: 500;
+  text-align: center;
+    line-height: 1.4;
+      font-size: 18px !important    ;
+       
+}
+
 .approval-table td {
-  box-sizing: border-box; /* ⭐ 중요 */
-  padding: 12px 8px;
-  font-size: 15px;
+  padding: 12px 10px;
+  text-align: center;
+  color: #333;
+}
+
+.approval-table tbody tr {
+  border-bottom: 0px solid #ddd;
+}
+
+ .table-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.approval-table {
+  width: 100%;
+  border-collapse: collapse;
   text-align: center;
 }
 
-/* THEAD TEXT */
-.approval-table thead th {
-  color: #fff;
-  font-weight: 500;
-}
-
-/* 둥근 모서리 */
+/* 왼쪽 위 */
 .approval-table thead th:first-child {
   border-top-left-radius: 12px;
 }
+
+/* 오른쪽 위 */
 .approval-table thead th:last-child {
   border-top-right-radius: 12px;
 }
 
-/* TBODY */
-.approval-table tbody td {
-  color: #333;
-  white-space: nowrap; /* PC에서는 유지 */
-}
-
-/* 마지막 줄 */
 .approval-table tbody tr:last-child td {
-  border-bottom: 2px solid #111;
+  border-bottom: 2px solid #111; /* 색·두께 자유 */
 }
 
-/* ===============================
-   🔄 ROLLING
-=============================== */
+
+
+
+.approval-table th,
+.approval-table td {
+  padding: 12px;
+  border-bottom: 0px solid #e5e7eb;
+  font-size: 14px;
+}
+.rolling-body {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left:28.2em; 
+}
 
 .rolling-body table {
-  width: 100%;
+    width: 88.5%;
   animation: rollUp 18s linear infinite;
+
 }
 
 @keyframes rollUp {
@@ -181,31 +203,7 @@ margin-left: 30px;
   }
 }
 
-/* ===============================
-   📱 MOBILE FIX (핵심)
-=============================== */
 
-@media (max-width: 480px) {
-
-  .rolling-body {
-    height: 180px;
-  }
-
-  .approval-table {
-    table-layout: auto; /* ⭐ fixed 완전 해제 */
-  }
-
-  .approval-table th,
-  .approval-table td {
-    padding: 6px 4px;
-    font-size: 11px;
-  }
-
-  .approval-table tbody td {
-    white-space: normal;      /* ⭐ 줄바꿈 허용 */
-    word-break: break-word;
-  }
-}
 
 .신청{  
 background-color: #f4f7fb;
@@ -335,6 +333,7 @@ font-family: "Pretendard";
 
 
 .정신1{
+  max-width: 1440px;   /* PC 최대 폭 */
 margin-right: -30px;
 }
   
@@ -427,99 +426,60 @@ color: #111111d2;
   }
 }
 
-
-/* ===============================
-   💻 중간 PC / 노트북 (1200px 이하)
-=============================== */
-@media (max-width: 1200px) {
-.첫화면 {
-  font-size: 1.2em;      /* 유지 OK */
-  height: 70vh;          /* 유지 */
-  min-height: 700px;     /* PC 안정감 */
-}
-.이자 {
-  font-size: 40px;   /* 모바일 22px → 약 1.8배 */
-  font-weight: 800;
-}
-
-.억 {
-  font-size: 40px;
-  font-weight: 800;
-}
-.일번 {
-  margin-top: 100px;   /* 모바일 50px → 2배 */
-}
-
-.상담신청 {
-  margin-top: 90px;    /* 모바일 45px → 2배 */
-}
-.사번 {
-  padding: 140px;      /* 모바일 70px → 2배 */
-  height: 70vh;
-  min-height: 650px;
-}
-.단 {
-  font-size: 28px;     /* 모바일 15px → 약 1.8배 */
-  font-weight: 500;
-  margin-top: 280px;   /* 모바일 140px → 2배 */
-  margin-bottom: 65px;
-}
-.론 {
-  font-size: 26px;     /* 모바일 16px → 1.6배 */
-  font-weight: 600;
-  margin-left: 30px;  /* 모바일 15px → 2배 */
-}
-
-.근로 {
-  margin-left: 30px;
-  font-size: 18px;    /* 모바일 10px → 1.8배 */
-}
-
-}
-
-
-/* ===============================
-   📱 태블릿 (1024px 이하)
-=============================== */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+  .첫화면 {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 16px;
+  }
 
   .이자 {
-    font-size: 32px;
+    font-size: 26px;
+    line-height: 1.3;
   }
 
   .억 {
-    font-size: 34px;
-  }
-
-  .김땡땡 {
     font-size: 28px;
   }
 
-  .본인,
-  .간단,
-  .정리 {
-    font-size: 32px;
+  .일번,
+  .상담신청 {
+    margin-top: 40px;
   }
 
-  .근로 {
-    font-size: 18px;
-  }
-
-  .세입 {
-    font-size: 22px;
-    padding: 30px;
+  .사번 {
+    padding: 80px 20px;
   }
 
   .단 {
-    font-size: 24px;
-    margin-top: 200px;
+    font-size: 20px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+  }
+
+  .table-wrapper,
+  .approval-table,
+  .rolling-body {
+    max-width: 100%;
+    table-layout: fixed;
   }
 
   .approval-table th,
   .approval-table td {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .rolling-body {
+    height: 180px;
+    margin-left: 0;
+  }
+
+  .채무 {
+    font-size: 22px;
   }
 }
+
 
 
 /* ===============================
