@@ -953,4 +953,8 @@ section {
     .삼번 {
     transform: translateX(-10px);
   }
+  .삼번 {
+  outline: 5px solid red !important;
+}
+
 }
