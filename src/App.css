@@ -309,6 +309,7 @@ margin-right: -30px;
 
 .세입{
   display: inline-flex;
+  flex-direction: column ;
   align-items: center;
 
   background: linear-gradient(
