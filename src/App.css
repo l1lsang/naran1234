@@ -658,14 +658,7 @@ padding-top: 25px;
 }
 
 }
-@media (max-width: 768px) {
-  .정신-inner {
-    display: flex;
-    flex-direction: column;   /* 세로 스택 */
-    align-items: center;      /* ⭐ 전체 중앙 */
-    width: 100%;
-  }
-}
+
 
 @media (max-width: 768px) {
   .table-wrapper {
@@ -857,4 +850,12 @@ section {
 }
 .사번 {
   padding: 140px 0;
+}
+@media (max-width: 768px) {
+  .정신-inner {
+    display: flex;
+    flex-direction: column;   /* 세로 스택 */
+    align-items: center;      /* ⭐ 전체 중앙 */
+    width: 100%;
+  }
 }
