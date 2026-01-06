@@ -667,7 +667,9 @@ font-weight:700;
   width: 100% !important;
   right: 0 !important;
 }
-
+*{
+  text-align: center;
+}
 
 }
 @media (max-width: 768px) {
