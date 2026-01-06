@@ -51,34 +51,35 @@ function App() {
       </header>
 
       {/* 고객 사례 섹션 */}
-      <section>
-        <div className='두달락'>
-        <div className='이미지'>
-          {/* 사람이미지 공간 */}
-          <img src={인간} className='인간'/>
-          <h1 className='김땡땡'>김OO</h1>
-          <div className='중소'>
-            <p className='중소1'>중소기업근로자/ 연봉5천만원/재직기간2년</p>
-            <p className='중소2'>부담되는 고금리 기대출 때문에 신청</p>
-          </div>
-          <div className='통합'>
-            <p className='통합1'>통합으로 (월 불입금 50만원 절약) </p>
-            <p className='통합2'>생계 여유자금 발생</p>
-          </div>
+      <section className="고객사례">
+  <div className="고객사례-inner">
+    <div className="두달락">
+      
+      <div className="이미지">
+        <img src={인간} className="인간" />
+        <h1 className="김땡땡">김OO</h1>
+
+        <div className="중소">
+          <p>중소기업근로자 / 연봉 5천</p>
+          <p>고금리 기대출로 신청</p>
         </div>
 
-        <div className='표'>
-          {/* 표 이미지 3개 넣어야함 */}
-        </div> 
-        <div className='대박표'>
-<img src={진행전} className='진행전'/>
-<img src={화살표}className='화살표'/>
-<img src={진행후}className='진행후'/>
+        <div className="통합">
+          <p>월 50만원 절약</p>
+          <p>생계 여유자금 발생</p>
         </div>
+      </div>
 
-        
-        </div>
-      </section>
+      <div className="대박표">
+        <img src={진행전} className="진행전" />
+        <img src={화살표} className="화살표" />
+        <img src={진행후} className="진행후" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* 진행 불가 안내 섹션 */}
       <section>
@@ -89,38 +90,40 @@ function App() {
       </section>
 
       {/* 진행절차 안내 섹션 */}
-      <section className='정신'>
-        <div className='정신1'>
-        <div className='삼번'>
-          <p className='진행'>진행절차를 모르시겠다고요?</p>
+     <section className="정신">
+  <div className="정신-inner">
 
-          <div className='묶음'>
-            <p className='본인'>복잡한 본인의 대출현황을</p>
-            <span className='간단'>간단하고 안전하게</span>
-            <p className='정리'>정리해 드리겠습니다.</p>
-          </div>  
+    <div className="삼번">
+      <p className="진행">진행절차를 모르시겠다고요?</p>
 
-          <div className='후후에'>
-            <p className='후에'>상담 후에 결정하셔도 충분합니다.</p>
-            <p className='후에1'>단 한번의 선택으로 앞으로 10년이 편해지십니다.</p>
-          </div>  </div>
-          <div className='세입'>
-            <div>
-              <p className='론'>세이브론의</p>
-              <p className='론'>빠르고 간편한</p>
-              <p className='론'>채무통합절차</p>
-            </div>
+      <div className="묶음">
+        <p className="본인">복잡한 본인의 대출현황을</p>
+        <span className="간단">간단하고 안전하게</span>
+        <p className="정리">정리해 드리겠습니다.</p>
+      </div>
 
-            <div className='근로'>
-              <p>근로소득이 2000만원 이상이라면 남녀노소 누구나!</p>
-              <p>채무가 3000만원이라는 조건만 맞는다면</p>
-              <p>복잡한 절차 없이 상담부터 실행까지 원스톱으로</p>
-              <p>단 한번의 선택으로 10년이 편안해집니다.</p>
-              <p>지금 바로 무료상담을 통해 조건을 확인하세요.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="후후에">
+        <p>상담 후에 결정하셔도 충분합니다.</p>
+        <p>단 한 번의 선택으로 10년이 편해집니다.</p>
+      </div>
+    </div>
+
+    <div className="세입">
+      <div>
+        <p className="론">세이브론의</p>
+        <p className="론">빠르고 간편한</p>
+        <p className="론">채무통합절차</p>
+      </div>
+
+      <div className="근로">
+        <p>근로소득 2,000만원 이상</p>
+        <p>채무 3,000만원 이상이면 가능</p>
+        <p>상담부터 실행까지 원스톱</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
       {/* 진행 불가 안내 텍스트 섹션 */}
 
@@ -195,7 +198,7 @@ function App() {
 
       {/* 마지막 이미지 섹션 */}
       <section>
-        <div claassName="육번">
+        <div className="육번">
           <img src={육번} alt="육번" className="육번" />
         </div>
       </section>

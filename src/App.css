@@ -655,3 +655,22 @@ font-weight:700;
     height: 180px;
   }
 }
+.정신 {
+  width: 100%;
+  background-color: #bdbbbb1f;
+}
+
+.정신-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.고객사례 {
+  width: 100%;
+}
+
+.고객사례-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
