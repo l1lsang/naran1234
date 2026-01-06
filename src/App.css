@@ -357,41 +357,7 @@ color: #111111d2;
 
 
 
-   @media (max-width: 1024px) {
 
-  .첫화면 {
-    height: auto;
-    min-height: 700px;
-  }
-
-  .이자 {
-    font-size: 34px;
-  }
-
-  .일번,
-  .상담신청 {
-    margin-top: 60px;
-  }
-
-  .사번 {
-    padding: 100px 40px;
-    height: auto;
-  }
-
-  .단 {
-    font-size: 24px;
-    margin-top: 200px;
-  }
-
-  .rolling-body {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .rolling-body table {
-    width: 100%;
-  }
-}
 
 @media (max-width: 768px) {
   .첫화면 {
