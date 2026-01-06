@@ -815,3 +815,26 @@ header {
   margin: 0;
   padding: 0;
 }
+/* =========================
+   🔥 잘림 원인 강제 해제
+========================= */
+
+html,
+body,
+#root,
+.app {
+  overflow-x: visible !important;
+  width: 100%;
+}
+section,
+header {
+  overflow: visible !important;
+}
+.두달락,
+.정신-inner,
+.고객사례-inner {
+  overflow: visible !important;
+}
+.정신 {
+  background-color: red !important;
+}
