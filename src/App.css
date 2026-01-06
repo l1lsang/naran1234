@@ -821,16 +821,7 @@ header {
 section {
   width: 100%;
 }
-/* 배경이 있는 섹션들 */
-.첫화면,
-.고객사례,
-.정신,
-.사번섹션,
-.신청,
-.육번섹션 {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-}
+
 .고객사례 {
   background-color: #fff;
 }
