@@ -968,3 +968,26 @@ section {
     text-align: center !important;
   }
 }
+@media (max-width: 768px) {
+  /* 🔥 삼번 위치 이동 완전 제거 */
+  .삼번 {
+    position: static !important;
+    right: auto !important;
+    left: auto !important;
+
+    display: block !important;
+    width: 90% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+
+    text-align: center !important;
+    transform: none !important;
+  }
+
+  /* 🔥 삼번 안 텍스트 오른쪽 밀던 padding 제거 */
+  .삼번 .진행,
+  .삼번 .묶음,
+  .삼번 .후후에 {
+    padding-left: 0 !important;
+  }
+}
