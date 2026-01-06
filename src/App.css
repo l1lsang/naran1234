@@ -143,10 +143,6 @@ margin-left: 30px;
   border-top-right-radius: 12px;
 }
 
-/* 마지막 줄 하단 라인 */
-.approval-table tbody tr:last-child td {
-  border-bottom: 2px solid #111;
-}
 .rolling-body {
   height: 240px;
   overflow: hidden;
