@@ -950,4 +950,8 @@ section {
     margin-left: 0;
     margin-right: 0;
   }
+    .삼번 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
