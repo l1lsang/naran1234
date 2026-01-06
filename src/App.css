@@ -685,3 +685,6 @@ font-weight:700;
   width: 100%;
   max-width: 520px;
 }
+.두달락 {
+  gap: clamp(24px, 4vw, 48px);
+}
