@@ -654,7 +654,7 @@ font-weight:700;
 }
 /* 삼번 영역 강제 원위치 */
 .삼번 {
-  margin-left: -130px !important;
+  margin-left: 0 !important;
   margin-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
