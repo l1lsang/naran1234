@@ -307,17 +307,7 @@ margin-right: -30px;
 }
   
 
-/* 부모 컨테이너 (추가 필요) */
-.세입-라인 {
-  display: flex;
-  align-items: center;
-  justify-content: center;   /* 전체 중앙 */
-  gap: 24px;
-  padding: 40px 20px;
-}
-
-/* 그라데이션 캡슐 */
-.세입 {
+.세입{
   display: inline-flex;
   align-items: center;
 
@@ -327,23 +317,30 @@ margin-right: -30px;
     #125ed1dc 50%,
     #1a8be8b7 100%
   );
-
   color: white;
+
   font-size: 28px;
   padding: 24px 50px 24px 30px;
   border-radius: 80px 0 0 80px;
 
-  margin: 0;                
-  position: static;        
+  /* ❌ 기존 강제 이동 제거 */
+  margin-left: 0;
+  position: static;
+
+  /* ✅ 대신 자연스러운 간격 */
+  margin-right: 16px;
 }
 
-/* 옆 텍스트 */
-.삼번 {
+
+.삼번{
   display: inline-block;
   background-color: transparent;
 
-  position: static;        
-  font-size: 20px;
+  /* ❌ 기존 강제 이동 제거 */
+  position: static;
+
+  /* ✅ 줄바꿈 방지/정렬 안정 */
+  vertical-align: middle;
 }
 
 
