@@ -611,20 +611,15 @@ font-weight:700;
 padding-top: 25px;
 }
 
-.정신1{
-  width:100%;
-  margin-right:0px;
-}
-  
+
 
 .세입{
 font-size: 14px;
 border-radius: 80px 0px 0px 80px;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     margin: 0 auto;        /* 중앙 정렬 */
-  right: -10px;
-
+display: block; 
 
 }
 .정신1{
@@ -663,11 +658,8 @@ font-weight:700;
   text-align: center; /* 텍스트도 중앙 */
   right: 0 !important;
   position: static !important;
+  display: block; 
 }
-*{
-  text-align: center;
-}
-
 }
 @media (max-width: 768px) {
   .table-wrapper {
