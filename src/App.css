@@ -956,5 +956,9 @@ section {
   .삼번 {
     text-align: center !important;
   }
+   .삼번,
+  .삼번 * {
+    text-align: center !important;
+  }
 
 }
