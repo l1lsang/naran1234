@@ -775,3 +775,33 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* =========================
+   ✅ 섹션 배경 가로 풀 확장 패치
+========================= */
+
+/* section은 무조건 화면 끝까지 */
+section,
+header {
+  width: 100%;
+}
+
+/* 배경이 있는 섹션들 명시적으로 */
+.첫화면,
+.정신,
+.신청,
+.사번 {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* inner는 가운데 고정 */
+.첫화면-inner,
+.정신-inner,
+.고객사례-inner,
+.신청-inner,
+.육번-inner {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
