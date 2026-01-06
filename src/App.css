@@ -799,8 +799,7 @@ header {
 .첫화면-inner,
 .정신-inner,
 .고객사례-inner,
-.신청-inner,
-.육번-inner {
+.신청-inner {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
