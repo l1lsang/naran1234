@@ -829,3 +829,23 @@ section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
 }
+.고객사례 {
+  background-color: #fff;
+}
+
+.정신 {
+  background-color: #bdbbbb1f;
+}
+
+.사번섹션 {
+  background-image: url(./이미지/사번.gif);
+  background-size: cover;
+}
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.사번 {
+  padding: 140px 0;
+}
