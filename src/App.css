@@ -815,32 +815,17 @@ header {
   margin: 0;
   padding: 0;
 }
-/* =========================
-   🔥 잘림 원인 강제 해제
-========================= */
-
-html,
-body,
-#root,
-.app {
-  overflow-x: visible !important;
+/* 모든 section은 화면 전체 폭 */
+section {
   width: 100%;
 }
-section,
-header {
-  overflow: visible !important;
-}
-.두달락,
-.정신-inner,
-.고객사례-inner {
-  overflow: visible !important;
-}
-
-/* 🔥 배경 섹션 전체 폭 강제 */
-.정신,
+/* 배경이 있는 섹션들 */
+.첫화면,
 .고객사례,
-.사번,
-.신청 {
-  width: 100vw;                 /* 뷰포트 기준 */
+.정신,
+.사번섹션,
+.신청,
+.육번섹션 {
+  width: 100vw;
   margin-left: calc(50% - 50vw);
 }
