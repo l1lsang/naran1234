@@ -611,58 +611,52 @@ font-weight:700;
 padding-top: 25px;
 }
 
-
-
-.세입{
-font-size: 14px;
-border-radius: 80px 0px 0px 80px;
-    width: 90%;
-    box-sizing: border-box;
-    margin: 0 auto;        /* 중앙 정렬 */
-display: block; 
-all: unset;    
-
-}
-.정신1{
-  display:flex;
+.정신1 {
+  display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
+  align-items: center;   /* ⭐ 핵심 */
   width: 100%;
-margin-right: auto;
-margin-left: auto;
-all: unset;    
+  margin: 0 auto;
 }
-.후에{
+.삼번 {
+  display: block;
+  width: 90%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-sizing: border-box;
+  text-align: center;
+
+  /* ❌ 위치 이동 관련 전부 제거 */
+  position: static;
+}
+.세입 {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+
+  font-size: 14px;
+  border-radius: 80px 0 0 80px;
+  box-sizing: border-box;
+}
+.후에 {
   font-size: 10px;
   padding-top: 5px;
 }
 
-.후후에{  font-size: 10px;
+.후후에 {
+  font-size: 10px;
   padding-top: 5px;
-font-weight:550;
-padding-bottom: 50px;
+  font-weight: 550;
+  padding-bottom: 50px;
 }
 
-.조회{
-font-size: 15px;
-font-weight:700;
+.조회 {
+  font-size: 15px;
+  font-weight: 700;
 }
-/* 삼번 영역 강제 원위치 */
-.삼번 {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-all: unset;    
-   width: 90%;
-  max-width: 360px;
-  margin: 0 auto;
 
-  box-sizing: border-box;
-  text-align: center; /* 텍스트도 중앙 */
-  right: 0 !important;
-  position: static !important;
-  display: block; 
-}
 }
 @media (max-width: 768px) {
   .table-wrapper {
