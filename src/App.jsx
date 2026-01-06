@@ -133,6 +133,12 @@ function App() {
     </p>
   <div className="table-wrapper">
   <table className="approval-table">
+    <colgroup>
+      <col style={{ width: "30%" }} />
+      <col style={{ width: "45%" }} />
+      <col style={{ width: "25%" }} />
+    </colgroup>
+
     <thead>
       <tr>
         <th>승인상품</th>
@@ -144,6 +150,12 @@ function App() {
 
   <div className="rolling-body">
     <table className="approval-table">
+      <colgroup>
+        <col style={{ width: "30%" }} />
+        <col style={{ width: "45%" }} />
+        <col style={{ width: "25%" }} />
+      </colgroup>
+
       <tbody>
         {data.map((item, i) => (
           <tr key={`a-${i}`}>
@@ -165,6 +177,7 @@ function App() {
       </tbody>
     </table>
   </div>
+
 </div>
 
   </div>
