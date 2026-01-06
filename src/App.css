@@ -688,3 +688,28 @@ font-weight:700;
 .두달락 {
   gap: clamp(24px, 4vw, 48px);
 }
+/* ===== 시각적 스케일 통제 패치 ===== */
+
+.본인,
+.간단,
+.정리,
+.채무 {
+  font-size: clamp(24px, 2.5vw, 34px);
+}
+
+.진행 {
+  font-size: clamp(18px, 1.8vw, 26px);
+}
+
+.두달락 {
+  gap: clamp(24px, 4vw, 48px);
+}
+
+.진행전,
+.진행후 {
+  max-width: 420px;
+}
+
+.대박표 {
+  gap: 20px;
+}
