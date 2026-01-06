@@ -104,7 +104,7 @@ function App() {
             <p className='후에'>상담 후에 결정하셔도 충분합니다.</p>
             <p className='후에1'>단 한번의 선택으로 앞으로 10년이 편해지십니다.</p>
           </div>  </div>
-
+          <div className="세입-라인">
           <div className='세입'>
             <div>
               <p className='론'>세이브론의</p>
@@ -121,7 +121,7 @@ function App() {
             </div>
           </div>
         </div>
-
+</div>
       </section>
 
       {/* 진행 불가 안내 텍스트 섹션 */}

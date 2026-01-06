@@ -214,6 +214,12 @@ margin-top: 30px;
 margin-right: 20px;
 
 }
+.진행전,
+.진행후 {
+  max-width: 800px;
+  width: 100%;
+}
+
 
 .두달락{
 display: flex;
@@ -301,33 +307,45 @@ margin-right: -30px;
 }
   
 
-.세입{
+/* 부모 컨테이너 (추가 필요) */
+.세입-라인 {
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* 전체 중앙 */
+  gap: 24px;
+  padding: 40px 20px;
+}
+
+/* 그라데이션 캡슐 */
+.세입 {
+  display: inline-flex;
+  align-items: center;
+
+  background: linear-gradient(
+    180deg,
+    #0b48b8f1 0%,
+    #125ed1dc 50%,
+    #1a8be8b7 100%
+  );
+
+  color: white;
+  font-size: 28px;
+  padding: 24px 50px 24px 30px;
+  border-radius: 80px 0 0 80px;
+
+  margin: 0;                
+  position: static;        
+}
+
+/* 옆 텍스트 */
+.삼번 {
   display: inline-block;
-background: linear-gradient(
-  180deg,
-  #0b48b8f1 0%,
-  #125ed1dc 50%,
-  #1a8be8b7 100%
-);
-color: white;
-font-size: 28px;
-padding-top: 40px;
-padding-bottom: 40px;
-padding-left: 30px;
-padding-right: 50px;
-border-radius: 80px 0px 0px 80px;
-margin-left: 150px;
- position: relative;
-  right: -150px;
+  background-color: transparent;
 
+  position: static;        
+  font-size: 20px;
+}
 
-}
-.삼번{
-display:inline-block;
-background-color: #bdbbbb00;
- position: relative;
-  right: -100px;
-}
 
 .후에{
   font-size: 20px;
