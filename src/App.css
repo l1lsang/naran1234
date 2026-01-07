@@ -307,6 +307,8 @@ margin-right: -30px;
   
 
 .세입{
+  flex: 1;
+
   display: inline-block;
 background: linear-gradient(
   180deg,
@@ -698,6 +700,8 @@ padding-top: 25px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 20px;
+  display:flex;
+   align-items: stretch; 
 }
 .고객사례 {
   width: 100%;

@@ -99,11 +99,7 @@ export default function App() {
               <p>단 한 번의 선택으로 10년이 편해집니다.</p>
             </div>
           </div>
-
-         
-          </div>
-     
-         <div className="세입">
+<div className="세입">
             <div className="세입-타이틀">
               <p className="론">세이브론의</p>
               <p className="론">빠르고 간편한</p>
@@ -116,6 +112,10 @@ export default function App() {
               <p>상담부터 실행까지 원스톱</p>
             </div>
                </div>
+         
+          </div>
+     
+         
       </section>
 
       {/* ================== 표 섹션 ================== */}
