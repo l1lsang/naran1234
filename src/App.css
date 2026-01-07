@@ -700,6 +700,7 @@ padding-top: 25px;
   padding: 80px 20px;
   display:flex;
    align-items: stretch; 
+   justify-content: space-between;
 }
 .고객사례 {
   width: 100%;
