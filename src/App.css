@@ -829,11 +829,6 @@ section {
 .정신 {
   background-color: #bdbbbb1f;
 }
-
-.사번섹션 {
-  background-image: url(./이미지/사번.gif);
-  background-size: cover;
-}
 .inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -874,7 +869,7 @@ section {
 
   .정신-inner > .삼번,
   .정신-inner > .세입 {
-    width: 90%;
+    width: 100%;
     max-width: 360px;
     margin: 0 auto;
     text-align: center;
@@ -990,4 +985,7 @@ section {
   .삼번 .후후에 {
     padding-left: 0 !important;
   }
+}
+.정신-inner{
+ width:100% !important;
 }
