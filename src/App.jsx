@@ -100,7 +100,10 @@ export default function App() {
             </div>
           </div>
 
-          <div className="세입">
+         
+          </div>
+     
+         <div className="세입">
             <div className="세입-타이틀">
               <p className="론">세이브론의</p>
               <p className="론">빠르고 간편한</p>
@@ -112,8 +115,7 @@ export default function App() {
               <p>채무 3,000만원 이상이면 가능</p>
               <p>상담부터 실행까지 원스톱</p>
             </div>
-          </div>
-        </div>
+               </div>
       </section>
 
       {/* ================== 표 섹션 ================== */}
