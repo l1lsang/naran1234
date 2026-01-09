@@ -1121,8 +1121,8 @@ margin-bottom: 80px;
 @media (max-width: 768px) {
 
   .박스{
-    width: 100%;
-    max-width: 200px;
+    width: 90%;
+    max-width: 100px;
   }
   .정신-inner{
     max-width: 768px;
