@@ -1093,3 +1093,35 @@ section {
   );
   z-index: -1;
 }
+.박스{
+max-width: 300px;
+margin: 50px auto;
+padding: 80px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.08);    
+border-radius: 16px;
+background:linear-gradient(
+  180deg,
+0%   #F8FBFF,
+50%  #EEF5FF,
+100% #E6F0FF)
+}
+
+.박스 h2
+{
+color: #211eb9d8;
+margin-top: -35px;
+margin-bottom: 40px;
+
+}
+.박스 .사탕{
+margin-bottom: 80px;
+
+}
+
+@media (max-width: 768px) {
+
+  .박스{
+    width: 100%;
+    max-width: 200px;
+  }
+}
