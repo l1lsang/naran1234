@@ -3,7 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
-    /*overflow-x: hidden;*/
+  overflow-x: hidden;
     background-color: white;
     width: 100%;
 }
@@ -740,7 +740,9 @@ html, body {
 }
 
 .신청 {
-  width: 100%;
+  width: 90%;
+  position: relative;
+  right: -30px;
 }
 
 .신청-inner {
