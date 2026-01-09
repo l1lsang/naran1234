@@ -260,9 +260,13 @@ margin-bottom: 50px;
 .진행{
 font-size:30px;
 padding-left: 200px;
-padding-top: 40px;
 padding-bottom: 10px;
-padding-top: 100px;
+color:#1f48b9;
+font-weight:600;
+}
+.진행1{
+font-size:30px;
+padding-left: 200px;
 color:#1f48b9;
 font-weight:600;
 }
