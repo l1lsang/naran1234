@@ -886,75 +886,6 @@ padding-top: 25px;
   max-width: 768px;
 }
 }
-
-
-
-
-
-/*사달락/
-
-
-
-
-
-}
-
-
-@media (max-width: 768px) {
-  .table-wrapper {
-    max-width: 100%;
-    padding: 0 12px;
-  }
-
-  .approval-table th,
-  .approval-table td {
-    font-size: 12px;
-    padding: 8px;
-  }
-
-  .rolling-body {
-    height: 180px;
-  }
-    body {
-    text-align: center;
-  }
-
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .container,
-  section,
-  div {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-.정신 {
-  width: 100%;
-  background-color: #bdbbbb1f;
-}
-
-.정신-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 20px;
-}
-.고객사례 {
-  width: 100%;
-}
-
-.고객사례-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 20px;
-}
-.고객사례-inner,
-.정신-inner,
-.신청-inner,
-.육번-inner{
-  max-width: 1200px;  /* ← 이게 황금값 */
 }
 .진행전,
 .진행후 {
@@ -1396,4 +1327,12 @@ animation: scaleUp 3s ease-in-out infinite;}
   0% { transform: scale(1); }
   50% { transform: scale(1.15); }
   100% { transform: scale(1); }
+}
+@media (max-width: 768px) {
+  .박스 {
+    width: 100%;
+    max-width: 360px;
+    margin: 24px auto;
+    padding: 24px 18px;
+  }
 }
