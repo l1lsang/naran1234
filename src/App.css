@@ -1,8 +1,10 @@
-*{font-family: 'Noto Sans KR', sans-serif;}
+*{font-family: 'Noto Sans KR', sans-serif;   }
 
 html, body {
   margin: 0;
   padding: 0;
+    overflow-x: hidden;
+    background-color: white;
 }
 
 h1, h2, h3, p {
@@ -36,6 +38,16 @@ font-weight: 900;
   padding: 0;
 }
 
+.이자1{
+font-size: 45px;
+color: #ffffff;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: 900;
+ text-align: center;
+   margin: 0;
+  padding: 0;
+}
+
 .억{
     font-size: 45px;
     color:#1EA7E1;
@@ -44,7 +56,9 @@ font-weight: 900;
 }
 
 .세이브{ 
-margin-left:2em; 
+position: relative;
+right: -10px;
+bottom: -18px;
 
 }
 
@@ -66,18 +80,41 @@ margin-top: 100px;
   }
 
   .사번{
+
+  background-size: cover;
   padding: 140px;
   height: 650px;
+  text-align: center;
+  padding-bottom: 20px;
   }
+
+  .석세스{
+font-size: 40px;
+color:  rgba(0, 0, 0, 0.753);  
+
+  }
+
+  .담은{
+font-size: 50px;
+font-weight:700;
+color: rgba(0, 0, 0, 0.753);  
+margin-top: 15px;
+  }
+
+  .한눈{
+font-size: 50px;
+font-weight:700;
+color:  rgba(0, 0, 0, 0.753);   
+}
 
   .단{
 font-size: 30px;
   text-align: center;
-  font-weight: 535;
-  color:#181683d3;
-  margin-top: 280px;
+  font-weight: 550;
+  color:#1f48b9;
+  margin-top: 50px;
   font-family: 'Noto Sans KR', sans-serif;
-  margin-bottom: 65px;
+  margin-bottom: 100px;
 
   }
 
@@ -90,6 +127,7 @@ font-weight: 600;
   .근로{
 margin-left: 30px;
   font-size: 20px;
+  margin-top: 20px;
   }
 
 .table-wrapper {
@@ -208,8 +246,9 @@ width:800px;
 .화살표{
   height: auto;
 width:200px;
-margin-top: 10px;
+margin-top: 60px;
 margin-right: -110px;
+margin-bottom: 60px;
 }
 
 .진행후
@@ -235,40 +274,75 @@ margin-left: 100px;
 }
 
 .김땡땡{
-font-size: 35px;
+font-size: 33px;
 color: #201e99ef;
 margin-top: 10px;
 }
 
+.메롱{
+position: relative;
+left: -50px;
+bottom: 10px;
+
+}
+
+.시옷{
+position: relative;
+top: -10px;
+left: 1px;
+
+
+}
+
 .중소{
-font-size: 15px;
+font-size: 23px;
 margin-top: 10px;
+white-space: nowrap;
 
 }
 .통합{
 font-weight:580;
-font-size: 20px;
+font-size: 35px;
 margin-top: 10px;
+white-space: nowrap;
+align-items: center;
 
 }
 .고객{
 text-align: center;
-color: #201e99ef;
+color: #201e99f1;
 margin-bottom: 50px;
+font-size: 27px;
+margin-top:100px;
+white-space: nowrap;
 }
+
+.플라스{
+width: 80px;
+position: relative;
+right: -25px;
+top: 6px;
+
+}
+
+
 
 .진행{
 font-size:30px;
 padding-left: 200px;
+
 padding-bottom: 10px;
+
 color:#1f48b9;
 font-weight:600;
 }
+
 .진행1{
 font-size:30px;
-padding-left: 200px;
 color:#1f48b9;
 font-weight:600;
+padding-left: 200px;
+
 }
 
 .본인{
@@ -311,9 +385,7 @@ margin-right: -30px;
   
 
 .세입{
-  flex: 1 !important;
-
-  display: flex;
+  display: inline-block;
 background: linear-gradient(
   180deg,
   #0b48b8f1 0%,
@@ -322,12 +394,14 @@ background: linear-gradient(
 );
 color: white;
 font-size: 28px;
-padding-top: 40px;
-padding-bottom: 40px;
+padding-top: 80px;
+padding-bottom: 80px;
 padding-left: 30px;
-padding-right: 150px;
+padding-right: 110px;
 border-radius: 80px 0px 0px 80px;
-
+margin-left: 150px;
+ position: relative;
+  right: -40px;
 
 
 }
@@ -335,7 +409,7 @@ border-radius: 80px 0px 0px 80px;
 display:inline-block;
 background-color: #bdbbbb00;
  position: relative;
-  right: -100px;
+  right: 200px;
 }
 
 .후에{
@@ -390,7 +464,7 @@ color: #111111d2;
 @media (max-width: 768px) {
   .첫화면 {
     height: auto;
-    min-height: 100vh;
+    min-height: 100svh;
     padding: 40px 16px;
   }
 
@@ -416,6 +490,7 @@ color: #111111d2;
     font-size: 20px;
     margin-top: 140px;
     margin-bottom: 40px;
+    
   }
 
   .table-wrapper,
@@ -447,22 +522,46 @@ color: #111111d2;
    📱 모바일 (768px 이하)
 =============================== */
 @media (max-width: 768px) {
+*{text-align: center;}
 
+.세이브{
+margin-right: 80px;
+  margin-bottom: 120px;
+
+}
 
 .첫화면{
  font-size: 1.2em; 
 height: 70svh;
 width:100%;
+margin-left: 1px;
+margin-bottom: 80px;
 }
 
 .이자{
 font-size: 22px;
 font-weight: 700;
+margin-right: 60px;
+position: relative;
+top: -110px;
+
+}
+
+.이자1{
+font-size: 22px;
+font-weight: 700;
+margin-right: 60px;
+  margin-bottom: 120px;
+ position: relative;
+  top: -110px;
 }
 
 .억{
     font-size:22px;
 font-weight: 700;
+margin-left: 1px;
+margin-bottom: 80px;
+
 }
 
 
@@ -470,12 +569,20 @@ font-weight: 700;
 margin-top:50px;
 height: auto;
 width: 80%;
+margin-left: 1px;
+  margin-bottom: 80px;
+   position: relative;
+  top: -150px;
 
   }
   .상담신청{
      margin-top:45px;
      height: auto;
 width: 80%;
+margin-left: 1px;
+  margin-bottom: 80px;
+   position: relative;
+  top: -140px;
   }
   .육번{
     height: auto;
@@ -486,36 +593,59 @@ width: 80%;
   height: 70vh;
   width: 100%;
   }
+.석세스{
+font-size: 10px;
+}
+.담은{font-size: 20px;
+
+}
+.한눈{font-size: 20px;}
+
+
+
+
+
   .인간{
     height:auto;
     width: 150px;
+    margin-top: -50px;
   }
 
   .단{
-font-size: 15px;
-  font-weight: 335;
-  margin-top: 140px;
+font-size: 13px;
+  
+  margin-top: 30px;
   margin-bottom: 30px;
+  font-weight: 900;
 
   }
 
-  .론{
-      font-size: 16px;
+  .세입-타이틀{
+      font-size: 10px;
 font-weight: 400;
- margin-left: 15px;}
+ margin-left: 15px;
+margin-top: 20px;
+}
+
+.론{
+   font-size: 15px;
+
+}
 
   .근로{
 margin-left: 15px;
-  font-size: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
   }
 
    .채무{
-font-size: 20px;
-  font-weight: 410;
+font-size: 28px;
+  font-weight: 800;
  margin-bottom: 9px;
    }
 .고객{
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
 }
 
@@ -524,13 +654,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+
+
+
   }
   .진행전,
   .진행후 {
-    width: 100%;          /* 화면 기준 */
-    max-width: 320px;     /* 모바일 안정 최대값 */
+    width: 300px!important ;         /* 화면 기준 */
+       /* 모바일 안정 최대값 */
     height: auto;
     margin: 0 auto;       /* 중앙 정렬 */
+    margin-left: 20px;
   }
 
   .화살표 {
@@ -538,6 +672,7 @@ align-items: center;
     height: auto;
     margin: 8px auto;     /* 음수 margin ❌ */
     display: block;
+
   }
 
 .두달락{
@@ -551,41 +686,76 @@ width: 100%!important;
 
 }
 
+.플라스{
+  position: relative;
+  left: 30px;
+margin-right: 15px;
+width: 50px;
+top: -0px;
+}
+
+
+
+
+.메롱{
+align-items: center;
+margin-top: 10px;
+margin-left: 70px;
+margin-bottom: 20px;
+
+
+}
+
 .이미지{
  margin-right: 0px;
 margin-left: 0px;
 }
 
 .김땡땡{
-font-size: 15px;
+font-size: 20px;
 margin-top: 5px;
 }
 
 .중소{
-font-size: 9px;
+font-size: 18px;
 margin-top: 5px;
+margin-right: 10px;
 
 }
 .통합{
 font-weight:580;
-font-size: 10px;
+font-size: 20px;
 margin-top: 5px;
+margin-right: 10px;
 
 }
 .고객{
 margin-bottom: 25px;
+font-size: 15px;
+margin-left: -25px;
 }
 
 .진행{
-font-size:15px;
-padding-top: 20px;
+font-size:30px;
 padding-bottom: 5px;
-padding-top: 50px;
 font-weight:700;
+position: relative;
+top: -20px;
 }
 
+.진행1{
+font-size:30px;
+font-weight:700;
+margin-right: 100px;
+margin-bottom: 15px;
+position: relative;
+right: 100px;
+
+}
+
+
 .본인{
-font-size: 20px;
+font-size: 15px;
 font-weight:700;
 margin-top:-15px;
 
@@ -594,15 +764,37 @@ margin-top:-15px;
   width:100% !important;
   padding: 10px !important;
 }
+
+.table-wrapper
+{  width: 350px!important ;  
+  position: relative;
+  top: 20px;
+
+}
+
+.신청-inner{
+  max-width: 760px;
+  width: 200px;
+}
+
+.신청{
+  width: 200px;
+
+
+
+}
+
+
 .간단{
-font-size:20px;
+font-size: 15px;
 font-weight:700;
 }
 
 
 .정리{
-font-size: 20px;
+font-size: 15px;
 font-weight:700;
+margin-bottom: 23px;
 
 }
 
@@ -645,7 +837,7 @@ padding-top: 25px;
 }
 
 .후후에 {
-  font-size: 10px;
+  font-size: 20px;
   padding-top: 5px;
   font-weight: 550;
   padding-bottom: 50px;
@@ -656,13 +848,12 @@ padding-top: 25px;
   font-weight: 700;
 }
 
-}
-
 @media (max-width: 768px) {
   .박스 {
-    padding: 24px;
-    margin: 0 16px;
-    width: 300px;
+    width: 90%;
+    max-width: 160px;
+
+
   }
 
   .박스 h2 {
@@ -671,14 +862,35 @@ padding-top: 25px;
 
   input {
     font-size: 15px;
-    height: 44px;
+    height: 38px;
   }
 
   .롱메 {
     font-size: 16px;
-    height: 48px;
+    height: 53px;
   }
+
+.즉시{white-space: nowrap;
+
+
+
 }
+
+
+}
+
+
+
+
+
+/*사달락/
+
+
+
+
+
+}
+
 
 @media (max-width: 768px) {
   .table-wrapper {
@@ -720,9 +932,6 @@ padding-top: 25px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 20px;
-  display:flex;
-   align-items: stretch; 
-   justify-content: space-between;
 }
 .고객사례 {
   width: 100%;
@@ -751,66 +960,7 @@ padding-top: 25px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}.박스 {
-  max-width: 520px;
-  margin: 0 auto;
-  padding: 40px;
-  background: #fff;
-  border-radius: 16px;
 }
-
-.박스 h2 {
-  font-size: 26px;
-  text-align: center;
-}
-
-.사탕 {
-  color: #1EA7E1;
-  margin-bottom: 30px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.상담 {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-label {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-input {
-  height: 48px;
-  padding: 0 14px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-
-.롱메 {
-  height: 52px;
-  font-size: 18px;
-  font-weight: 700;
-  background: #1EA7E1;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.즉시 {
-  text-align: center;
-  font-size: 13px;
-  color: #666;
-}
-
 
 /* 2) 고객사례-inner / 정신-inner / 신청-inner / 육번-inner : "안에서만" 폭 제한 */
 .고객사례-inner,
@@ -911,6 +1061,11 @@ section {
 .정신 {
   background-color: #bdbbbb1f;
 }
+
+.사번섹션 {
+  background-image: url(./이미지/사번.gif);
+  background-size: cover;
+}
 .inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -941,6 +1096,37 @@ section {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  /* 🔥 삼번 위치 이동 완전 제거 */
+  .삼번 {
+    position: static !important;
+    right: auto !important;
+    left: auto !important;
+
+    display: block !important;
+    width: 90% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+
+    text-align: center !important;
+    transform: none !important;
+  }
+
+  /* 🔥 삼번 안 텍스트 오른쪽 밀던 padding 제거 */
+  .삼번 .진행,
+  .삼번 .묶음,
+  .삼번 .후후에 {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .정신-inner {
+    display: flex;
+    flex-direction: column;   /* 세로 스택 */
+    align-items: center;      /* ⭐ 전체 중앙 */
+    width: 100%;
+  }
+}
 
 @media (max-width: 768px) {
   .정신-inner {
@@ -951,7 +1137,7 @@ section {
 
   .정신-inner > .삼번,
   .정신-inner > .세입 {
-    width: 100%;
+    width: 90%;
     max-width: 360px;
     margin: 0 auto;
     text-align: center;
@@ -1068,9 +1254,11 @@ section {
     padding-left: 0 !important;
   }
 }
-.정신-inner{
- width:100% !important;
+
+.육번섹션{
+background-color: #F9F9F9;
 }
+
 .세입 {
   position: relative;
   flex: 1;
@@ -1085,14 +1273,16 @@ section {
   right: -100vw;        /* 화면 끝까지 */
   width: 100vw;
   height: 100%;
-  background: linear-gradient(
-    180deg,
-    #0b48b8f1 0%,
-    #125ed1dc 50%,
-    #1a8be8b7 100%
+background: linear-gradient(
+  180deg,
+  #0b48b8f1 0%,
+  #125ed1dc 50%,
+  #1a8be8b7 100%
   );
-  z-index: -1;
+  z-index: 0;
 }
+
+
 .박스{
 max-width: 300px;
 margin: 50px auto;
@@ -1118,13 +1308,84 @@ margin-bottom: 80px;
 
 }
 
-@media (max-width: 768px) {
 
-  .박스{
-    width: 90%;
-    max-width: 160px;
-  }
-  .신청-inner{
-    max-width: 768px;
-  }
+
+
+.상담
+{margin-bottom: 70px;
+  margin-top: -30px;
+}
+
+label{
+display: block;
+font-size: 17px;
+font-weight: 500;
+text-align: left;
+margin-top: 20px;
+}
+
+input{
+width: 100%;
+padding: 13px;
+margin-top: 10px;
+border: 1px solid #ddd;
+transition: all 0.2s ease;
+outline: none;
+}
+
+input:focus{
+border-color:#4fa3caa2; 
+  box-shadow: 0 0 0 3px rgba(30,167,225,0.15);
+}
+.롱메{
+background-color: #0b48b8f1;
+margin-top: -30px;
+color: #ffffff;
+padding: 13px;
+width: 100%;
+font-size: 22px;
+border-radius: 7px;
+
+}
+.즉시{
+margin-top: 30px;
+font-size: 20px;
+font-weight: 600;
+color:#101011ab;
+
+
+}
+
+button:hover{
+transform: translateY(-2px);
+
+}
+
+.처음처럼{
+  background-color: #1ea6e100;
+  border:none;
+
+}
+button:focus{
+  border: none;
+  outline: none;
+}
+
+
+.hidden{
+opacity: 0;
+transform: translateY(50px);
+transition:  all 1s ease;
+}
+.show{
+opacity: 1;
+transform: translateY(0);
+}
+
+.scale-up{
+animation: scaleUp 3s ease-in-out infinite;}
+@keyframes scaleUp {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
 }
