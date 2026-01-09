@@ -742,7 +742,7 @@ html, body {
 .신청 {
   width: 90%;
   position: relative;
-  right: -30px;
+  right: 30px;
 }
 
 .신청-inner {
