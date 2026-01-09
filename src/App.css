@@ -850,9 +850,8 @@ padding-top: 25px;
 
 @media (max-width: 768px) {
   .박스 {
-    width: 90%;
-    max-width: 160px;
-
+    width: 100%;
+  max-width: 420px; 
 
   }
 
@@ -872,9 +871,11 @@ padding-top: 25px;
 
 .즉시{white-space: nowrap;
 
-
-
 }
+.신청 {
+  padding: 40px 16px;
+}
+
 
 
 }
