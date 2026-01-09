@@ -182,6 +182,23 @@ export default function App() {
             <p className="조회">높은금리의 대출이자를 절반 이하로 줄이세요.</p>
           </div>
         </div>
+        <div className="박스" >
+<h2> 정확한 상담을 위한 </h2>
+  <h2 className="사탕">고객정보를 입력해주세요.   </h2>
+
+<form >                      
+  <div className="상담">
+<label>이름</label>
+<input type="text" placeholder="이름을 입력하세요."required pattern="^[가-힣]{2,4}$"title="이름은 한글 2~4자로 입력해주세요"/></div>
+
+<div className="상담">
+<label>연락처</label>
+<input type="tel" placeholder="연락처를 입력하세요."required pattern="^010-[0-9]{4}-[0-9]{4}$"title="010-XXXX-XXXX 형식으로 입력해주세요"/>
+  </div>
+
+ <button className="롱메"  type="submit">무료 상담신청</button>
+  <div className="즉시"> 신청 즉시, 10분이내 유선 상담 진행</div>
+  </form></div>
       </section>
 
       {/* ================== 마지막 이미지 ================== */}
