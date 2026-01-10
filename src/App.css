@@ -1329,7 +1329,7 @@ animation: scaleUp 3s ease-in-out infinite;}
   100% { transform: scale(1); }
 }
 @media (max-width: 768px) {
-  .박스,.상담,.롱메,.즉시,form {
+  .박스,form {
     width: 100%;
     max-width: 360px;
     margin: 24px auto;
