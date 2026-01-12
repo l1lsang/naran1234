@@ -1335,5 +1335,6 @@ animation: scaleUp 3s ease-in-out infinite;}
     margin: 24px auto;
     padding: 24px 18px;
     scale:calc(0.7);
+    height: 40px;
   }
 }
